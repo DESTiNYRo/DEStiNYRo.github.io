@@ -23,6 +23,15 @@
   list-style: none;
 }
 
+a {
+  color: rgb(182, 211, 244);
+  font-size: medium;
+}
+a:hover {
+  color: midnightblue;
+  font-size: medium;
+}
+
   #home{
   padding-top: 80px;
 }
@@ -152,6 +161,7 @@
   .project_box {
   margin: 0 auto;    /* keep horizontal centering but no vertical spacing */
   padding: 20px;     /* optional padding inside the box */
+
 }
   .project_box {
     margin: 0px auto;
@@ -160,11 +170,18 @@
     border: 5px solid rgb(0, 0, 0);
 
   }
-  .game {
-    width: 300px;
-    height: auto;
+
+  .projects {
+    display: flex;          /* text + image side by side */
+    /* flex-direction: row;
+    align-items: flex-start;
+    /* gap: 20px; */
+   /* font-weight: bolder; */
+  }
+  /* .game {
+    width: auto;
+    height: 200px;
     object-fit: cover;
     border-radius: 8px;
-  }
-  
+  } */
   
