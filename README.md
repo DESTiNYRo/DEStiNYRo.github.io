@@ -1,4 +1,4 @@
-# Destiny Rosado Salcedo's Portfolio
+<!-- # Destiny Rosado Salcedo's Portfolio
 
 ![Portrait photo](/assets/Destiny_RosadoSalcedo.jpeg){: style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%; display: block; margin: 0 auto;" }
 
@@ -91,4 +91,4 @@ Below is an embedded view. If it doesn’t load, use the direct link.
 ## Contact Me
 
 - **Email:** [destinyrosado01@gmail.com](mailto:destinyrosado01@gmail.com)
-
+ -->

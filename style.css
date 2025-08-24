@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('assets/unscii-16-full.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'MyCustomFont', sans-serif; /* Apply the custom font with a fallback */
+    background-color: #edc1e0;
+    /* justify-content: center; */
+  }
+/* Reset */
+  body, ul {
+  margin: 0;
+  padding: 0;
+}
+  h2 {
+    margin: 60px 0;
+    text-align: center;
+  }
+  ul {
+  list-style: none;
+}
+
+  #home{
+  padding-top: 80px;
+}
+/* Navbar styles */
+  #navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: inherit;            /* same as page background */
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+  #navbar ul {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 40px;
+}
+
+  #navbar a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #27549E;                 /* nav text color */
+  transition: color 0.3s ease;
+}
+
+  #navbar a:hover,
+  #navbar a.active {
+  color: #000;                    /* highlight current section */
+}
+
+/* When scrolled, show border/shadow */
+  #navbar.scrolled {
+  border-bottom: 2px solid #ccc;
+  background: #fff;               /* or keep transparent if you prefer */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+  .intro_box {
+    background-color: #d6e2f4;
+    justify-items: center;
+    width: 60%; 
+    border: 15px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;      
+    justify-content: center; 
+    box-shadow: 15px 15px 0px rgba(0, 0, 0, 1);
+  }
+  .huge_name {
+    background-color: #98b6df;
+    width: 50%;
+    border: 5px solid rgb(18, 18, 18);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .title {
+    font-family: 'MyCustomFont'; 
+    font-size: 60px;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+  .greeting {
+    font-family: sans-serif; 
+    font-size: 45px;
+    font-weight: bold;
+    color:#27549E;
+}
+  .name { 
+    font-family: sans-serif; 
+    font-size: 20px;
+    font-weight: bold;
+    color:#27549E;
+}
+/* make space a bit tight */
+.greeting, .name {
+    margin: 4px 0;   /* very tight */
+  }
+
+  .about_box {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f6bb;
+    border: 5px solid rgb(0, 0, 0);
+
+  }
+  
+  .about_box .statement {
+    margin-bottom: 40px;  /* space between heading and content */
+ 
+  }
+  
+  .about_content {
+    display: flex;          /* text + image side by side */
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .about_destiny {
+    flex: 1;                /* text takes remaining space */
+  }
+  
+  .picture {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border: 3px solid #000;
+    border-radius: 8px;
+  }
+
+  .about_box,
+  .project_box {
+  margin: 0 auto;    /* keep horizontal centering but no vertical spacing */
+  padding: 20px;     /* optional padding inside the box */
+}
+  .project_box {
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #fdf0d5;
+    border: 5px solid rgb(0, 0, 0);
+
+  }
+  .game {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  
