@@ -25,11 +25,11 @@
 
 a {
   color: rgb(182, 211, 244);
-  font-size: medium;
+  font-size: 20px;
 }
 a:hover {
   color: midnightblue;
-  font-size: medium;
+  font-size: 20px;
 }
 
   #home{
@@ -163,25 +163,88 @@ a:hover {
   padding: 20px;     /* optional padding inside the box */
 
 }
-  .project_box {
+  /* .project_box {
     margin: 0px auto;
     padding: 20px;
     background-color: #fdf0d5;
     border: 5px solid rgb(0, 0, 0);
 
-  }
-
+  } */
+/* 
   .projects {
     display: flex;          /* text + image side by side */
     /* flex-direction: row;
     align-items: flex-start;
     /* gap: 20px; */
-   /* font-weight: bolder; */
+   /* font-weight: bolder; 
   }
-  /* .game {
-    width: auto;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-  } */
+  .skills {
+    display: flex;          /* text + image side by side */
+    /* flex-direction: row; */
+    /* align-items: flex-start;
+    gap: 20px; */
+ /* } 
+  */
+  .project_box {
+    margin: 60px 0;
+    /* margin: 0 auto; */
+    padding: 20px;
+    background-color: #fdf0d5;
+    border: 5px solid #000;
+    display: flex;              /* make it flexbox */
+    justify-content: space-between; /* spread left & right */
+    align-items: flex-start;    /* align to top */
+    gap: 40px;                  /* space between columns */
+  }
+  
+  .left, .right {
+    flex: 1;   /* each side takes equal width */
+  }
+  
+  .projects, .skills {
+    margin-bottom: 10px;
+  }
+
+  .about_me {
+    text-align: center;
+    color:rgb(143, 88, 59);
+  }
+  .statement {
+    text-align: center;
+    color:rgb(255, 183, 227);
+  }
+
+  .skill {
+    text-align: center;
+  }
+
+  .contact_box {
+    background-color: #4b6183;
+    justify-items: center;
+    width: auto; 
+    border: 15px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;      
+    justify-content: center; 
+    box-shadow: 15px 15px 0px rgba(0, 0, 0, 1);
+  }
+
+  .contact_info {
+    font-family: 'MyCustomFont'; 
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+
+  .message {
+    font-size: 20px;
+    font-weight: bold;
+    color:#000000;
+  }
   
